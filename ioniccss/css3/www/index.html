@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Ejemplo del uso de listas y sus attributos css con Ionic</h1>
+      </ion-header-bar>
+      <ion-content class="padding">
+      <!-- Lista Simple -->
+      <div class="list">
+        <div class="item">
+            Item 1
+          </div>
+          <div class="item">
+            Item 2
+          </div>
+          <div class="item">
+            Item 3
+          </div>
+      </div>
+       <!-- Lista con Botones y un elemeto con un icon avatar -->
+      <div class="list">
+        <div class="item item-button-right">
+            Telefono fijo
+            <button class="button button-positive">
+              <i class="icon ion-ios-telephone"></i>
+            </button>
+          </div>
+
+          <div class="item item-button-right">
+            Telefono Movile
+            <button class="button button-positive">
+              <i class="icon ion-ios-telephone"></i>
+            </button>
+          </div>
+            <!-- item de la lista con avatares -->
+          <a class="item item-avatar" href="#">
+            <img src="img/perfil.jpg">
+            <h2>Cyberspace27</h2>
+            <p>Outkast, cuando la internet todavia no estaba domesticada.</p>
+          </a>
+            <!-- item de la lista con thumbnails, con esta propiedad la imagen puede ir en la derecha oh izquierda -->
+          <a class="item item-thumbnail-left" href="#">
+            <img src="img/perfil.jpg">
+            <h2>Ariel VC</h2>
+            <p>Outkast, cuando la internet todavia no estaba domesticada.</p>
+          </a>
+
+      </div>
+      <!-- Lista con iconos  -->
+      <br>
+      <br><div class="list">
+
+        <a class="item item-icon-left" href="#">
+          <i class="icon ion-email">
+            Check mail
+          </i>
+          </a>
+
+          <a class="item item-icon-left item-icon-right" href="#">
+            <i class="icon ion-chatbubble-working"></i>
+            call Ma
+            <i class="icon ion-ios-telephone-outline"></i>
+          </a>
+
+          <a class="item item-icon-left" href="#">
+            <i class="icon ion-mic-a" ></i>
+            Record album
+            <span class="item-note">
+              Grammy
+            </span>
+          </a>
+
+          <a class="item item-icon-left" href="#">
+            <i class="icon ion-person-stalker"></i>
+            Friends
+            <span class="badge badge-assertive">0</span>
+          </a>
+
+      </div>
+      <br>
+      <br>
+      <!-- Lista Combinadas  -->
+        <div class="list">
+          <div class="item item-divider">
+            Galicia
+          </div>
+          <a class="item" href="#">
+            A Coruña
+          </a>
+          <a class="item" href="#">
+            Lugo
+          </a>
+          <a class="item" href="#">
+            Ourense
+          </a>
+          <a class="item" href="#">
+            Pontevedra
+          </a>
+
+          <div class="item item-divider">
+            Comunidad Valenciana
+          </div>
+          <a class="item" href="#">
+            Castellon
+          </a>
+          <a class="item" href="#">
+            Valencia
+          </a>
+          <a class="item" href="#">
+            Alicante
+          </a>
+        </div>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

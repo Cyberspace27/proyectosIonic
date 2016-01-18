@@ -1,0 +1,3 @@
+Pagina para agregar iconos con ionic, tenemos el ejemplo 4 esta relacionado con botones y se le pueden agregar estos iconos
+
+http://ionicons.com/
